@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
 </head>
 <body>
@@ -136,13 +137,23 @@
             </article>
         </div>
     </section>
-    <section>
+    <section class="section3">
+        <p class="titel">Let's work together</p>
+        Have a question? Need a quote? Let us know!
+        <div class="formulier">
+            <form>
+                <p>Name</p>
+                <input type="text" placeholder="Name"/>
 
-        <div>Form
-            Let's work together
+                <p>Email</p>
+                <input type="email" placeholder="Email" minLength="10"/>
+                <p>Message</p>
+                <input type="text" placeholder="Message" required style="width: 500px; height: 40px;"/>
 
-            Have a question? Need a quote? Let us know!
+            </form>
         </div>
+        <p><button class="send" type="submit">Send</button></p>
+
     </section>
 </main>
 <footer>
